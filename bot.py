@@ -7,7 +7,7 @@ def hello(bot, update):
     update.message.reply_text(
         'Hello {}'.format(update.message.from_user.first_name))
 
-updater = Updater('432617398:AAHuhQJq7U1vrenVXJ9ofLx-doRIeYN6U8o')
+updater = Updater('446638663:AAHkmiDnpX-YqLUrIRWOAfzIpJ4GmZZ8uB8')
 
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('hello', hello))
