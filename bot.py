@@ -13,7 +13,6 @@ def echo(bot, update):
 updater = Updater('446638663:AAHkmiDnpX-YqLUrIRWOAfzIpJ4GmZZ8uB8')
 updater.dispatcher.add_handler(MessageHandler(Filters.text, echo))
 updater.dispatcher.add_handler(CommandHandler('start', start))
-updater.dispatcher.add_handler(CommandHandler('hello', hello))
 
 updater.start_polling()
 updater.idle()
